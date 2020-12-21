@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<section class="container">
+    <section class="one">
+     <div class="logo">
+       <img src="https://image.flaticon.com/icons/svg/143/143361.svg">
+     </div>
+     <h2 class="heading">
+       please subscribe to get updates
+     </h2>
+     <p> signup with your email to get latest updates 
+     </p>
+     <form class="form" action="{% url 'welcome-email' %}">
+       <input type='text' placeholder="enter your email"><br/>
+       <button class="btn" role="button">
+         subscribe
+       </button>
+     </form>
+     </section>
+     <section class="two">
+       <h3>
+         thank you for subscribing !
+         please check your email
+       </h3>
+       <div class="close"> 
+       </div>
+     </section>
+   </section>
+{% endblock content %}
