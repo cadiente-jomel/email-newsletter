@@ -73,7 +73,7 @@ html {
     text-transform: capitalize;
 }
 
-input[type='text'] {
+input[type='email'] {
     width: 85%;
     height: 60px;
     margin-top: 20px;
@@ -85,15 +85,15 @@ input[type='text'] {
     position: relative;
 }
 
-input[type='text']:active:focus,
-input[type='text']:focus,
-input[type='text']:hover {
+input[type='email']:active:focus,
+input[type='email']:focus,
+input[type='email']:hover {
     outline: none;
     font-size: 20px;
 }
 
-input[type='text']:focus::-webkit-input-placeholder,
-input[type='text']:active:focus::-webkit-input-placeholder {
+input[type='email']:focus::-webkit-input-placeholder,
+input[type='email']:active:focus::-webkit-input-placeholder {
     font-size: 12px;
     display: block;
     -webkit-transform: translateY(-20px);
